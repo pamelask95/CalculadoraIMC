@@ -13,7 +13,10 @@ Tecnologias utilizadas:
 - Button
 - TextView
 
-<img width="1080" height="2400" alt="Screenshot_20251119_150009" src="https://github.com/user-attachments/assets/dd2223eb-5a3c-40e4-93d1-8017fc032d36" />
+<img width="270" height="600" alt="Screenshot_20251119_150009" src="https://github.com/user-attachments/assets/89eed109-c35e-4b78-9f30-6df4245df937" />
+<img width="270" height="600" alt="Screenshot_20251119_161121" src="https://github.com/user-attachments/assets/e8c55274-c868-422b-97c4-3ff2e418c2f6" />
+
+
 <img width="1080" height="2400" alt="Screenshot_20251119_150032" src="https://github.com/user-attachments/assets/00e2db3d-e5d7-47df-a95d-e61eedbc05eb" />
 
 
