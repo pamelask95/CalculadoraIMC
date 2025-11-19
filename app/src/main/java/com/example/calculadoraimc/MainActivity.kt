@@ -1,0 +1,44 @@
+package com.example.calculadoraimc
+
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Button
+import com.google.android.material.textfield.TextInputEditText
+import androidx.appcompat.app.AppCompatActivity
+
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var btnCalcular: Button
+    private lateinit var editPeso: TextInputEditText
+    private lateinit var editAltura: TextInputEditText
+
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        btnCalcular = findViewById(R.id.btn_calcular)
+        editPeso = findViewById(R.id.edit_peso)
+        editAltura = findViewById(R.id.edit_altura)
+
+
+        btnCalcular.setOnClickListener {
+
+            val intent = Intent(this, ResultadoActivity::class.java)
+
+            val peso = editPeso.text.toString()
+            val altura = editAltura.text.toString()
+
+            if(peso.isNotEmpty() && altura.isNotEmpty()){
+
+                intent.putExtra("peso", peso.toDouble())
+                intent.putExtra("altura", altura.toDouble())
+            }
+
+            startActivity(intent)
+
+        }
+    }
+}
