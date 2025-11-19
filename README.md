@@ -12,3 +12,8 @@ Tecnologias utilizadas:
 - TextInputLayout
 - Button
 - TextView
+
+<img width="1080" height="2400" alt="Screenshot_20251119_150009" src="https://github.com/user-attachments/assets/dd2223eb-5a3c-40e4-93d1-8017fc032d36" />
+<img width="1080" height="2400" alt="Screenshot_20251119_150032" src="https://github.com/user-attachments/assets/00e2db3d-e5d7-47df-a95d-e61eedbc05eb" />
+
+
