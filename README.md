@@ -14,6 +14,7 @@ Tecnologias utilizadas:
 - TextView
 
 <img width="270" height="600" alt="Screenshot_20251119_150009" src="https://github.com/user-attachments/assets/89eed109-c35e-4b78-9f30-6df4245df937" />
-<img width="270" height="600" alt="Screenshot_20251119_161121" src="https://github.com/user-attachments/assets/e8c55274-c868-422b-97c4-3ff2e418c2f6" />
+<img width="270" height="600" alt="Screenshot_20251119_163117" src="https://github.com/user-attachments/assets/c48d5e91-4ebb-43b3-bcde-c1af90a49492" />
+
 
 
