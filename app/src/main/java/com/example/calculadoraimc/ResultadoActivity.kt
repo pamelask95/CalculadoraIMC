@@ -1,6 +1,8 @@
 package com.example.calculadoraimc
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +14,7 @@ class ResultadoActivity : AppCompatActivity() {
     private lateinit var textPeso: TextView
     private lateinit var textAltura: TextView
     private lateinit var textResultado: TextView
+    private lateinit var btn_novo: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,6 +23,8 @@ class ResultadoActivity : AppCompatActivity() {
         textPeso = findViewById(R.id.text_peso)
         textAltura = findViewById(R.id.text_altura)
         textResultado = findViewById(R.id.text_resultado)
+        btn_novo = findViewById<Button>(R.id.btn_novo)
+
 
         val bundle = intent.extras
         if(bundle != null){
@@ -42,5 +47,10 @@ class ResultadoActivity : AppCompatActivity() {
             }
 
         }
+        btn_novo.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
